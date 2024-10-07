@@ -12,7 +12,6 @@ return {
       "c",
       "cpp",
       "python",
-      "latex",
       "markdown",
       "markdown_inline",
     },

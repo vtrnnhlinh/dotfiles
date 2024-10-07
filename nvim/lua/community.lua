@@ -12,15 +12,15 @@ return {
   { import = "astrocommunity.pack.cpp" },
   { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.pack.markdown" },
-  { import = "astrocommunity.markdown-and-latex.vimtex" },
   { import = "astrocommunity.pack.python-ruff" },
   { import = "astrocommunity.pack.bash" },
   { import = "astrocommunity.media.image-nvim" },
-  { import = "astrocommunity.icon.mini-icons" },
   { import = "astrocommunity.completion.cmp-emoji" },
   { import = "astrocommunity.completion.cmp-latex-symbols" },
-  { import = "astrocommunity.workflow.hardtime-nvim" },
   { import = "astrocommunity.color.transparent-nvim" },
   { import = "astrocommunity.color.twilight-nvim" },
+  { import = "astrocommunity.editing-support.auto-save-nvim" },
+  { import = "astrocommunity.icon.mini-icons" },
+  { import = "astrocommunity.markdown-and-latex.vimtex" },
   -- import/override with your plugins folder
 }

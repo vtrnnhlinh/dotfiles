@@ -22,6 +22,15 @@ return {
         -- Normal = { bg = "#000000" },
       },
     },
+        icon_highlights = {
+      -- enable or disable breadcrumb icon highlighting
+      breadcrumbs = false,
+      -- Enable or disable the highlighting of filetype icons both in the statusline and tabline
+      file_icon = {
+        tabline = function(self) return self.is_active or self.is_visible end,
+        statusline = true,
+      },
+    },
     -- Icons can be configured throughout the interface
     icons = {
       -- configure the loading of the lsp in the status line

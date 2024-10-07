@@ -17,5 +17,8 @@ end
 
 require "lazy_setup"
 require "polish"
-vim.api.nvim_set_keymap('n', '<localleader>q', ':QuartoPreview<CR>', { noremap = true, silent = true })
 
+-- Key mappings
+vim.api.nvim_set_keymap('n', '<F6>', "<cmd>CompilerOpen<cr>", { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<S-F6>', "<cmd>CompilerStop<cr><cmd>CompilerRedo<cr>", { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<S-F7>', "<cmd>CompilerToggleResults<cr>", { noremap = true, silent = true })
